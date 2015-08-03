@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+
+        <link rel="stylesheet" href="css/normalize.min.css">
+        <link rel="stylesheet" href="css/main.css">
+
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+
+        <div id="logo"></div>
+
+        <ul id="stage">
+            <li class="page default">
+                <header>
+                  <h1 class="youropinion"></h1>
+                </header>
+                <p class="copyone"></p>
+                <p class="copytwo"></p>
+                <form>
+                    <ul>
+                        <li><a href="" data-val="1" class="knockyoursocks"></a></li>
+                        <li><a href="" data-val="2" class="productquality"></a></li>
+                        <li><a href="" data-val="3" class="quickship"></a></li>
+                        <li><a href="" data-val="4" class="newproduct"></a></li>
+                        <li><a href="" data-val="5" class="support"></a></li>
+                    </ul>
+                    
+                    <footer>
+                        <a href="#" id="submitvote"></a>
+                        <p id="opinionTagLine"></p>
+                        <a href="#" id="viewresults"></a>
+                    </footer>
+
+                </form>
+            </li>
+            <li class="page results">
+                <header>
+                    <h1 class="surveyresults"></h1>
+                </header>
+                
+                <ul>
+                    <li data-val="1">
+                        <table>
+                            <tr>
+                                <td><div class="percent"></div></td>
+                                <td class="chipStack"></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" class="knockyoursocks label"></td>
+                            </tr>
+                        </table>
+                    </li>
+                    <li data-val="2">
+                        <table>
+                            <tr>
+                                <td><div class="percent"></div></td>
+                                <td class="chipStack"></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" class="productquality label"></td>
+                            </tr>
+                        </table>
+                    </li>
+                    <li data-val="3">
+                        <table>
+                            <tr>
+                                <td><div class="percent"></div></td>
+                                <td class="chipStack"></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" class="quickship label"></td>
+                            </tr>
+                        </table>
+                    </li>
+                    <li data-val="4">
+                        <table>
+                            <tr>
+                                <td><div class="percent"></div></td>
+                                <td class="chipStack"></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" class="newproduct label"></td>
+                            </tr>
+                        </table>
+                    </li>
+                    <li data-val="5">
+                        <table>
+                            <tr>
+                                <td><div class="percent"></div></td>
+                                <td class="chipStack"></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" class="support label"></td>
+                            </tr>
+                        </table>
+                    </li>
+                </ul>
+                <footer>
+                    <a href="#" id="returntovote"></a>
+                    <p class="copythree"></p>
+                </footer>
+            </li>
+            <li class="page admin">
+                <header>
+                    <h1 class="surveyresults"></h1>
+                </header>
+                    <p id="strorageWarning">You are currently using <strong><span id="percentUsed"></span>%</strong> of your avaliable storage.</p>
+                    
+                    <table></table>
+                    <div class="preload knockyoursocks selected"></div>
+                    <div class="preload productquality selected"></div>
+                    <div class="preload quickship selected"></div>
+                    <div class="preload newproduct selected"></div>
+                    <div class="preload support selected"></div>
+
+                    <div class="preload submitvote"></div>
+                    <div class="preload viewresults"></div>
+                    <div class="preload returntovote"></div>
+                <footer>
+                    <a href="#" id="returntovote"></a>
+                    <a href="#" id="export" class=""></a>
+                    <a href="#" id="clear" class=""></a>
+                </footer>
+            </li>
+        </ul>
+
+        <div id="character"></div>
+        <div id="adminLink"></div>
+
+        <script src="js/vendor/jquery-1.8.3.min.js"></script>
+        <script src="js/vendor/underscore-min.js"></script>
+        <script src="js/vendor/backbone-min.js"></script>
+        <script src="js/vendor/backbone.localStorage.js"></script>
+
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+    <div style="position:absolute;filter:alpha(opacity=0);opacity:0.001;z-index:10;">                                                                            </div></body>
+</html>

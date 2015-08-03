@@ -1,0 +1,650 @@
+/* ==========================================================================
+   HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
+   ========================================================================== */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+body {
+    font-size:62.2%
+    line-height: 1.4;
+    overflow:hidden;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+img {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.chromeframe {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+body {
+    
+}
+
+h1 {
+    padding:0px;
+    margin:0px;
+    height: 100px;
+    position:relative;
+    top:20px;
+    left:50%;
+    margin-left: -630px;
+    
+}
+
+ul#stage {
+    height: 200px;
+    padding:0px;
+    margin:0px;
+    position:absolute;
+    top:0px;
+    z-index: -1
+}
+
+ul#stage>li {
+    width: 50%;
+    list-style: none;
+    padding:0px;
+    margin:0px;
+    float:left;
+    background-color: #fff;
+}
+
+
+/* default */
+
+h1.youropinion {
+    background-image:url('../img/youropinion.png');
+    background-repeat: no-repeat;
+    background-position: 399px 33px;
+}
+
+ul#stage>li form>ul{
+    padding:0px;
+    margin:0px;
+    float:left;
+    list-style: none;
+    text-align:center;
+    position: relative;
+    left: 50%;
+    margin-left: -547px;
+
+}
+
+ul#stage>li form>ul li{ 
+    float:left;
+    margin:20px;
+    width:179px;
+    height:179px;
+    background-repeat: no-repeat;
+    background-position: center, center;
+}
+
+ul#stage>li form>ul a{
+    display:block;
+    width:179px;
+    height:179px;
+    background-repeat: no-repeat;
+    background-position: center, center;
+}
+ul#stage li.default .copyone{
+    background-image:url('../img/copyone.png');
+    background-repeat: no-repeat;
+    background-position: center, center;
+    height:30px;
+    margin-top:60px;
+}
+
+ul#stage li.default .copytwo{
+    background-image:url('../img/copytwo.png');
+    background-repeat: no-repeat;
+    background-position: center, center;
+    height:60px;
+    margin-top:40px;
+}
+
+a.knockyoursocks {
+    background-image:url('../img/knockyoursocks.png');
+}
+
+a.knockyoursocks:hover, .knockyoursocks.selected {
+    background-image:url('../img/knockyoursocksHover.png');
+}
+
+a.productquality {
+    background-image:url('../img/productquality.png');
+}
+
+a.productquality:hover, .productquality.selected {
+    background-image:url('../img/productqualityHover.png');
+}
+
+a.quickship {
+    background-image:url('../img/quickship.png');
+}
+
+a.quickship:hover, .quickship.selected {
+    background-image:url('../img/quickshipHover.png');
+}
+
+a.newproduct {
+    background-image:url('../img/newproduct.png');
+}
+
+a.newproduct:hover, .newproduct.selected {
+    background-image:url('../img/newproductHover.png');
+}
+
+a.support {
+    background-image:url('../img/support.png');
+}
+
+a.support:hover, .support.selected {
+    background-image:url('../img/supportHover.png');
+}
+
+div.preload {
+    width:1px;
+    height:1px;
+}
+
+ul#stage>li form>ul .selected{
+}
+
+.submitvote {
+    background-image:url('../img/submit.png');
+}
+
+ul#stage>li #submitvote {
+    background-image:url('../img/submit.png');
+    background-position: center,center;
+    background-repeat: no-repeat;
+    display:block;
+    width:208px;
+    height:99px;
+    position:relative;
+    left:50%;
+    bottom: -20px;
+    margin-left: -615px;
+}
+
+ul#stage>li #submitvote:hover {
+    background-image:url('../img/submitHover.png');
+}
+
+p#opinionTagLine {
+    background-image:url('../img/opinionTagLine.png');
+    position:relative;
+    left:50%;
+    bottom: 73px;
+    margin-left: -390px;
+    width:487px;
+    height:45px;
+}
+
+ul#stage>li #viewresults {
+    background-image:url('../img/realtimeresults.png');
+    display:block;
+    width:248px;
+    height:91px;
+    position:relative;
+    left:50%;
+    bottom: 150px;
+    margin-left: 220px;
+    background-position: center,center;
+    background-repeat: no-repeat;
+}
+
+ul#stage>li #viewresults:hover, .viewresults { 
+    background-image:url('../img/realtimeresultsHover.png');
+}
+
+
+
+
+/* results */
+div.percent {
+    font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    color:red;
+    font-size:30px;
+    font-weight:bold;
+    text-shadow: 2px 2px #ccc;
+}
+
+div.percent sup {
+    font-size:15px;
+}
+
+.chipStack div {
+    height:29px;
+    width:81px;
+    margin-top:-21px;
+    position:relative;
+}
+
+.chipStack div.chip1 { background-image:url('../img/chip1.png'); }
+.chipStack div.chip2 { background-image:url('../img/chip2.png'); }
+.chipStack div.chip3 { background-image:url('../img/chip3.png'); }
+
+td.knockyoursocks { 
+    background-image:url('../img/knockyoursocksResults.png'); 
+    background-position: 49px 5px;
+}
+td.productquality { 
+    background-image:url('../img/productqualityResults.png'); 
+    background-position: 83px 5px;
+}
+td.quickship { 
+    background-image:url('../img/quickshipResults.png');
+    background-position: 32px 5px;
+}
+td.newproduct { 
+    background-image:url('../img/newproductResults.png');
+    background-position: 46px 5px;
+}
+td.support { 
+    background-image:url('../img/supportResults.png'); 
+    background-position: 32px 5px;
+}
+
+li.results table{
+    width:190px;
+}
+
+li.results table td{
+    vertical-align: bottom;
+    background-repeat: no-repeat;
+}
+
+li.results table td.label{
+    height:75px;
+}
+
+h1.surveyresults {
+    background-image:url('../img/surveyresults.png');
+    background-repeat: no-repeat;
+    background-position: 399px 33px;
+}
+
+li.results ul{
+    padding:0px;
+    margin:0px;
+    float:left;
+    text-align:center;
+    position: relative;
+    left: 50%;
+    top:20px;
+    margin-left: -600px;
+}
+
+li.results ul>li{
+    float:left;
+    display:block;
+    width:200px;
+    margin:20px;
+    
+}
+
+li.results li>div{
+    height:300px;
+}
+
+ul#stage>li #returntovote {
+    background-image:url('../img/back.png');
+    display:block;
+    width:130px;
+    height:62px;
+    position:relative;
+    left:50%;
+    bottom: -30px;
+    margin-left: -590px;
+    background-position: center,center;
+    background-repeat: no-repeat;
+}
+
+ul#stage>li #returntovote:hover, .returntovote { 
+    background-image:url('../img/backHover.png');
+}
+
+ul#stage li.results .copythree{
+    background-image:url('../img/copythree.png');
+    background-repeat: no-repeat;
+    background-position: center, center;
+    height:30px;
+    margin-top: -20px;
+    margin-left: 40px;
+}
+
+
+
+/* admin */
+li.admin table{
+    border:solid 1px #000;
+    margin-top:0px;
+    margin-right:auto;
+    margin-left:auto;
+}
+
+
+
+li.admin thead {
+    display:block;
+}
+
+li.admin tbody {
+    display:block;
+    height: 100px;
+    overflow: auto;
+}
+
+
+#strorageWarning {
+    margin-right:auto;
+    margin-left:auto;
+    width:200px;
+    text-align: center;
+}
+
+li.admin table th {
+    background-color:#9B090D;
+    color:#fff;
+}
+
+li.admin table td, li.admin table th{
+    border:solid 1px #000;
+    text-align:center;
+    padding:5px;
+    width:200px;
+    vertical-align: top;
+}
+
+li.admin table tr:nth-child(odd)     { background-color:#eee; }
+li.admin table tr:nth-child(even)    { background-color:#fff; }
+
+li.admin #export {
+    background-image:url('../img/export.png');
+    display:block;
+    width:197px;
+    height:88px;
+    position:relative;
+    left:50%;
+    bottom: 40px;
+    margin-left: -451px;
+    background-position: center,center;
+    background-repeat: no-repeat;
+}
+
+li.admin #export:hover, .export { 
+    background-image:url('../img/exportHover.png');
+}
+
+li.admin #clear {
+    background-image:url('../img/clear.png');
+    display:block;
+    width:197px;
+    height:88px;
+    position:relative;
+    left:50%;
+    bottom: 128px;
+    margin-left: -237px;
+    background-position: center,center;
+    background-repeat: no-repeat;
+}
+
+li.admin #clear:hover, .clear { 
+    background-image:url('../img/clearHover.png');
+}
+
+
+
+
+
+ul#stage>li footer {
+    height:130px;
+    position:absolute;
+    bottom:0px;
+    width:100%;
+    background-image:url('../img/background.png');
+    
+}
+
+
+ul#stage>li header {
+    background-image:url('../img/background.png');
+    height:125px;
+}
+
+div#logo {
+    width:303px;
+    height:139px;
+    background-image:url('../img/logo.png');
+    z-index: 1;
+    position:absolute;
+    top:20px;
+    left:50%;
+    margin-left: -630px;
+}
+
+
+div#character {
+    width:267px;
+    height:288px;
+    background-image:url('../img/billy.png');
+    z-index: 1;
+    position:absolute;
+    bottom:0px;
+    right:50px;
+}
+
+div#character:hover {
+
+ 
+
+}
+
+
+div#adminLink{
+    z-index: 1;
+    position: absolute;
+    bottom: 16px;
+    right: 137px;
+    display: block;
+    width: 32px;
+    height: 20px;
+}
+
+
+
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+       only screen and (min-resolution: 144dpi) {
+
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 100%;
+}
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster: h5bp.com/s */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links for images, or javascript/internal links
+     */
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group; /* h5bp.com/t */
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
